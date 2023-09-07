@@ -1,0 +1,76 @@
+<div class="container-login">
+  <div class="image-container">
+    <div class="image-login"></div>
+  </div>
+  <div class="login">
+    <div class="login-container">
+      <div class="login-header">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          height="1em"
+          viewBox="0 0 512 512"
+        >
+          <path
+            d="M336 352c97.2 0 176-78.8 176-176S433.2 0 336 0S160 78.8 160 176c0 18.7 2.9 36.8 8.3 53.7L7 391c-4.5 4.5-7 10.6-7 17v80c0 13.3 10.7 24 24 24h80c13.3 0 24-10.7 24-24V448h40c13.3 0 24-10.7 24-24V384h40c6.4 0 12.5-2.5 17-7l33.3-33.3c16.9 5.4 35 8.3 53.7 8.3zM376 96a40 40 0 1 1 0 80 40 40 0 1 1 0-80z"
+          />
+        </svg>
+        <p>LOGIN</p>
+      </div>
+      <div class="form-submit">
+        <form>
+          <span
+            >Sign in now and meet the awesome Friends around the world.</span
+          >
+          <input
+            type="text"
+            placeholder="Phone"
+            #usernameInput
+            name="username"
+          />
+          <input
+            type="password"
+            placeholder="Password"
+            #passwordInput
+            name="password"
+          />
+
+          <!-- <input [(ngModel)]="newValue" name="newValue" placeholder="Enter a value" />
+          <button (click)="saveValue()">Save</button> -->
+
+          <!-- <input [(ngModel)]="inputValue" name="inputValue" placeholder="Enter a value" /> -->
+          <!-- <button (click)="save()">Save</button> -->
+
+          <div class="checkbox-css">
+            <input type="checkbox" />
+            <label>Remember me</label>
+          </div>
+          <div class="submit-css">
+            <button (click)="login()">Sign in</button>
+            <!-- <button data-ripple="" (click)="addSubscription()">Sign in</button> -->
+            <a class="forgot" href="#" title="">Forgot password?</a>
+          </div>
+        </form>
+
+        <div class="web">
+          <a class="facebook" href="#" title="" data-ripple=""
+            ><i class="fa fa-facebook"></i
+          ></a>
+          <a class="twitter" href="#" title="" data-ripple=""
+            ><i class="fa fa-twitter"></i
+          ></a>
+          <a class="instagram" href="#" title="" data-ripple=""
+            ><i class="fa fa-instagram"></i
+          ></a>
+          <a class="google" href="#" title="" data-ripple=""
+            ><i class="fa fa-google-plus"></i
+          ></a>
+        </div>
+        <span
+          >Don't have an account?
+          <a class="we-account underline" href="#" title="">Register now</a>
+        </span>
+        <div class="triangle"></div>
+      </div>
+    </div>
+  </div>
+</div>

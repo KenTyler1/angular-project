@@ -1,0 +1,31 @@
+.container-footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    p {
+        text-align: center;
+        padding: 23px 0 0 0;
+        padding-bottom: 20px;
+        margin-left: 162px;
+    }
+    img {
+        padding: 23px 0 0 0;
+        margin-right: 130px;
+        width: 79px;
+        height: 20px;
+        padding-bottom: 20px;
+
+    }
+
+
+}
+

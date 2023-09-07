@@ -1,0 +1,211 @@
+.header {
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #34465d;
+  padding: 0 16px;
+  height: 66px;
+  position: fixed;
+
+  p {
+    color: #fff;
+  }
+
+  li {
+    list-style-type: none;
+    color: white;
+    transition: all 0.2s ease-in-out;
+  }
+
+  li:hover {
+    transform: scale(1.2);
+    color: white;
+  }
+
+  .header-search {
+    position: relative;
+    display: inline-block;
+
+    input[type="search"] {
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 30px;
+      border: medium;
+      padding: 13px 30px;
+      width: 450px;
+      color: #fff;
+      outline: none;
+      padding-right: 30px;
+    }
+
+    input[type="search"]::placeholder {
+      color: #fff;
+    }
+
+    #icon-search {
+      position: absolute;
+      right: 30px;
+      top: 50%;
+      transform: translateY(-50%);
+      fill: #fff;
+      cursor: pointer;
+    }
+  }
+
+  #synctax {
+    content: "";
+
+    width: 1px;
+    height: 65px;
+    background-color: #5f5d5d;
+  }
+
+  .list-icon {
+    ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      li {
+        cursor: pointer;
+        margin: 0 5px;
+        padding: 0 5px;
+      }
+
+      li:hover {
+        color: white; /* Color changed to white on hover */
+      }
+
+      li .icon-badge1 {
+        display: inline-block;
+        position: relative;
+      }
+      .badge1 {
+        position: relative;
+        top: -15px;
+        right: 4px;
+        background-color: red;
+        color: white;
+        font-size: 12px;
+        padding: 4px 8px;
+        border-radius: 50%;
+      }
+
+      li .icon-badge2 {
+        display: inline-block;
+        position: relative;
+      }
+
+      .badge2 {
+        position: relative;
+        top: -15px;
+        right: 4px;
+        background-color: #7750f8;
+        color: white;
+        font-size: 12px;
+        padding: 4px 8px;
+        border-radius: 50%;
+      }
+      .icon-badge3 {
+        display: inline-block;
+        position: relative;
+      }
+
+      .badge3 {
+        position: relative;
+        top: -15px;
+        right: 4px;
+        background-color: #23d2e2;
+        color: white;
+        font-size: 12px;
+        padding: 4px 8px;
+        border-radius: 50%;
+      }
+
+      li .icon-badge4 {
+        display: inline-block;
+        position: relative;
+      }
+
+      .badge4 {
+        position: relative;
+        top: -15px;
+        right: 4px;
+        color: white;
+        font-size: 12px;
+        padding: 4px 8px;
+        border-radius: 50%;
+      }
+    }
+  }
+
+  .icon-language {
+    cursor: pointer;
+
+    .icon-badge4 {
+      display: inline-block;
+      position: relative;
+    }
+
+    .badge4 {
+      position: relative;
+      top: -15px;
+      right: 4px;
+      color: white;
+      font-size: 12px;
+      padding: 4px 8px;
+      border-radius: 50%;
+    }
+  }
+  .header-menu {
+    cursor: pointer;
+  }
+
+  .icon-help {
+    cursor: pointer;
+  }
+
+  .user-account {
+    cursor: pointer;
+    display: flex;
+    font-size: 14px;
+    font-weight: bold;
+    align-items: center;
+
+    p {
+      margin-right: 5px;
+    }
+
+    .user-status {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      img {
+        border-radius: 50%;
+        object-fit: cover;
+      }
+
+      #status {
+        position: absolute;
+        top: 30px;
+        right: 2px;
+        font-size: 12px;
+        font-weight: bold;
+        margin-left: 8px;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        text-align: center;
+        background-color: green;
+        color: white;
+      }
+    }
+    .setting {
+      margin-left: 10px;
+    }
+  }
+}
